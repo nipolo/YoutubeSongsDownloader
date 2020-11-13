@@ -41,5 +41,5 @@
 1. Copy and paste the list of "[Song name] - [artist name]" in text file
 1. Iterate through this list and find song in youtube and make new list of desired songs and copy and paste the link in text file named songs.txt (for each genre could have different text file of youtube links of the songs).
 1. Run the tool YoutubeSongsDownloader for each text file that contains a list with Youtube links.
-
-6) In Desktop's folder Downloaded could be found the downloaded songs in subfolders corresponding to the name of txt list file.
+1. In Desktop's folder Downloaded could be found the downloaded songs in subfolders corresponding to the name of txt list file.
+1. Use this online tool to cut mp3s - https://mp3cut.net/
