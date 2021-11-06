@@ -33,10 +33,10 @@
             .slice(0, -1)
       );
     }
-    allSongsNameAndArtist.reduce(
+    console.log(allSongsNameAndArtist.reduce(
       (accumulator, currentValue) => (accumulator += currentValue + "\n"),
       ""
-    );
+    ));
     ```
 1. Copy and paste the list of "[Song name] - [artist name]" in text file
 1. Iterate through this list and find song in youtube and make new list of desired songs and copy and paste the link in text file named songs.txt (for each genre could have different text file of youtube links of the songs).
