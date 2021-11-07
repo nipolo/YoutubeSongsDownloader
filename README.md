@@ -54,7 +54,7 @@
 When there are any songs that aren't successfully downloaded observe the log.txt file and download them separetely:
 1. Filter songs from the log by executing the command 
     ```console
-    findstr [regex] [path_to_log.txt_file] > [output_file]
+    findstr "Error with:" [path_to_log.txt_file] > [output_file]
     ```
 1. Use some web app to download songs (preferable at least 320 kbps quality)
     - https://yt2mp3.info/
