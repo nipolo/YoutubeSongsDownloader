@@ -49,3 +49,14 @@
 1. Run the tool YoutubeSongsDownloader for each text file that contains a list with Youtube links.
 1. In Desktop's folder Downloaded could be found the downloaded songs in subfolders corresponding to the name of txt list file.
 1. Use this online tool to cut mp3s - https://mp3cut.net/
+
+## Dowload using web apps
+When there are any songs that aren't successfully downloaded observe the log.txt file and download them separetely
+1. Filter songs from the log by executing the command 
+    ```console
+    findstr [regex] [path_to_log.txt_file] > [output_file]
+    ```
+1. Use some web app to download songs (preferable at least 320 kbps quality)
+    - https://yt2mp3.info/
+    - https://320ytmp3.com/en18/
+    - https://ytmp3.cc/en40/
