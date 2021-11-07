@@ -3,8 +3,8 @@
 ## Create the list of the songs
 1. Sign in shazam.com with fb account
 1. Check in "G:\My Drive\OneS\Skoda USB Audio\Syncs" what was the last checked song of the Shazam's list
-    - Open checked list (usually under name "songs urls.txt") of the last time you have downloaded the songs
-    - Scroll backward in the list of all the songs in https://www.shazam.com/gb/myshazam and find the order number of the latest checked song
+    - Open checked list (usually under name "songs urls.txt") of the LAST TIME you have downloaded the songs
+    - Scroll backward (down) in the list of all the songs in https://www.shazam.com/gb/myshazam and find the order number of the latest checked song
     - Uncomment the first row in the script below and put the number from the previous point into the variable number_of_latest_downloaded_and_shazamed_song
 3. Run the script:
     ```js
