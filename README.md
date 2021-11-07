@@ -51,7 +51,7 @@
 1. Use this online tool to cut mp3s - https://mp3cut.net/
 
 ## Dowload using web apps
-When there are any songs that aren't successfully downloaded observe the log.txt file and download them separetely
+When there are any songs that aren't successfully downloaded observe the log.txt file and download them separetely:
 1. Filter songs from the log by executing the command 
     ```console
     findstr [regex] [path_to_log.txt_file] > [output_file]
